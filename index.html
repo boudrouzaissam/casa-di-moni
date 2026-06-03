@@ -3,95 +3,258 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Casa di Moni | Café & Gelato Ottawa</title>
+
+  <title>Casa di Moni | Café & Gelato in Ottawa</title>
+
+  <meta name="description" content="Casa di Moni Café & Gelato in Ottawa's ByWard Market. Authentic Italian flavours, artisan gelato, barista coffee, pastries, cold drinks and desserts." />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header>
+
+  <header class="site-header">
     <nav class="navbar">
-      <div class="logo">Casa di Moni</div>
+      <a href="#home" class="brand">
+        <span class="brand-name">Casa di Moni</span>
+        <span class="brand-subtitle">Café & Gelato</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#story">About</a></li>
         <li><a href="#menu">Menu</a></li>
         <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#visit">Visit</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h1>Casa di Moni</h1>
-      <h2>Café & Gelato</h2>
-      <p>Authentic Italian dishes, artisan gelato, barista coffee, pastries, frozen treats, and more in the heart of Ottawa’s ByWard Market.</p>
-      <a href="#menu" class="btn">View Menu</a>
-    </div>
-  </section>
+  <main>
 
-  <section id="about" class="section">
-    <h2>Welcome to Casa di Moni</h2>
-    <p>
-      Serving Ottawa with a premium selection of authentic Italian dishes and over 100 flavours of artisan gelato.
-      We offer hot and iced-cold barista coffee, frozen treats, pastries, and more.
-      Located in the heart of the ByWard Market, Casa di Moni has something for everyone.
-    </p>
-  </section>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
 
-  <section id="menu" class="section dark">
-    <h2>Our Menu</h2>
+      <div class="hero-content">
+        <p class="eyebrow">ByWard Market • Ottawa</p>
 
-    <div class="menu-grid">
-      <div class="menu-card">
-        <h3>Coffee & Beverages</h3>
-        <img src="images/coffee-menu.jpg" alt="Casa di Moni coffee menu">
+        <h1>Authentic Italian Café & Artisan Gelato</h1>
+
+        <p>
+          Serving Ottawa with a premium selection of authentic Italian dishes,
+          over 100 flavours of artisan gelato, barista coffee, pastries, frozen treats and more.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary">View Menu</a>
+          <a href="#visit" class="btn btn-outline">Visit Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-info">
+      <div>
+        <span>☕</span>
+        <h3>Barista Coffee</h3>
+        <p>Hot and iced coffee crafted with care.</p>
       </div>
 
-      <div class="menu-card">
-        <h3>Gelato</h3>
-        <img src="images/gelato-menu.jpg" alt="Casa di Moni gelato menu">
+      <div>
+        <span>🍨</span>
+        <h3>100+ Gelato Flavours</h3>
+        <p>Italian-inspired artisan gelato.</p>
       </div>
 
-      <div class="menu-card">
-        <h3>Cold Drinks</h3>
-        <img src="images/cold-drinks-menu.jpg" alt="Casa di Moni cold drinks menu">
+      <div>
+        <span>🥐</span>
+        <h3>Pastries & Treats</h3>
+        <p>Sweet bites, desserts and frozen treats.</p>
       </div>
-    </div>
-  </section>
 
-  <section id="gallery" class="section">
-    <h2>Gallery</h2>
-    <div class="gallery">
-      <img src="images/facade.jpg" alt="Casa di Moni storefront">
-      <img src="images/coffee-menu.jpg" alt="Coffee menu">
-      <img src="images/gelato-menu.jpg" alt="Gelato menu">
-      <img src="images/cold-drinks-menu.jpg" alt="Cold drinks menu">
-    </div>
-  </section>
+      <div>
+        <span>📍</span>
+        <h3>ByWard Market</h3>
+        <p>Located in the heart of Ottawa.</p>
+      </div>
+    </section>
 
-  <section id="contact" class="section contact">
-    <h2>Visit Us</h2>
-    <p><strong>Address:</strong> 51 York St, Ottawa, ON K1N 9B7</p>
-    <p><strong>Phone:</strong> (613) 789-7172</p>
-    <p><strong>Price range:</strong> $10–20 per person</p>
+    <section id="story" class="section story-section">
+      <div class="story-text">
+        <p class="eyebrow dark">About Casa di Moni</p>
 
-    <h3>Opening Hours</h3>
-    <p>Monday – Thursday: 9:00 AM – 11:00 PM</p>
-    <p>Friday – Saturday: 9:00 AM – 12:00 AM</p>
-    <p>Sunday: 9:00 AM – 11:00 PM</p>
+        <h2>Italian flavour, warm hospitality, and a sweet Ottawa experience.</h2>
 
-    <div class="order-buttons">
-      <a href="#" class="btn">Uber Eats</a>
-      <a href="#" class="btn">DoorDash</a>
-      <a href="#" class="btn">SkipTheDishes</a>
-    </div>
-  </section>
+        <p>
+          Located in the heart of Ottawa’s ByWard Market, Casa di Moni offers authentic Italian dishes,
+          artisan gelato, barista coffee, pastries, frozen treats and more.
+        </p>
 
-  <footer>
-    <p>© 2026 Casa di Moni. Website demo built by Aissam Boudrouz.</p>
+        <p>
+          Whether you are looking for a quick coffee, a family dessert, or a refreshing gelato,
+          Casa di Moni has something for everyone. To satisfy your cravings in a hurry,
+          the café is also available through Uber Eats, DoorDash and SkipTheDishes.
+        </p>
+      </div>
+
+      <div class="story-image">
+        <img src="images/facade.jpg" alt="Casa di Moni storefront in Ottawa">
+      </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+      <div class="section-heading">
+        <p class="eyebrow">Our Menu</p>
+
+        <h2>Fresh, sweet, and crafted with passion</h2>
+
+        <p>Menu items and prices may change. Please confirm directly with the café.</p>
+      </div>
+
+      <div class="menu-grid">
+
+        <article class="menu-card">
+          <img src="images/cappuccino.jpg" alt="Cappuccino and coffee beans">
+
+          <div class="menu-card-content">
+            <h3>Coffee & Espresso</h3>
+
+            <div class="menu-row"><span>Espresso</span><strong>$3.09</strong></div>
+            <div class="menu-row"><span>Americano</span><strong>$3.99</strong></div>
+            <div class="menu-row"><span>Cappuccino</span><strong>$4.49 / $5.19 / $6.19</strong></div>
+            <div class="menu-row"><span>Latte</span><strong>$4.49 / $5.19 / $6.19</strong></div>
+            <div class="menu-row"><span>Mocha</span><strong>$4.99 / $5.69 / $6.69</strong></div>
+            <div class="menu-row"><span>Hot Chocolate</span><strong>$4.29 / $4.99 / $5.79</strong></div>
+            <div class="menu-row"><span>Extra Shot Espresso</span><strong>$1.00</strong></div>
+            <div class="menu-row"><span>Syrup</span><strong>$0.75</strong></div>
+
+            <p class="menu-note">
+              Latte flavours include caramel, chai, crème brûlée, pistachio, lavender, matcha, pumpkin spice and more.
+            </p>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <img src="images/gelato.jpg" alt="Artisan gelato cup">
+
+          <div class="menu-card-content">
+            <h3>Artisan Gelato</h3>
+
+            <div class="menu-row"><span>Small Cup</span><strong>$4.99</strong></div>
+            <div class="menu-row"><span>Medium Cup</span><strong>$6.99</strong></div>
+            <div class="menu-row"><span>Large Cup</span><strong>$8.99</strong></div>
+            <div class="menu-row"><span>Waffle Cone</span><strong>$1.50</strong></div>
+            <div class="menu-row"><span>500g Take Home</span><strong>$18.99</strong></div>
+            <div class="menu-row"><span>1000g Take Home</span><strong>$32.99</strong></div>
+
+            <p class="menu-note">
+              More than 100 artisan gelato flavours available.
+            </p>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <img src="images/iced-drink.jpg" alt="Iced drinks and smoothies">
+
+          <div class="menu-card-content">
+            <h3>Cold Drinks</h3>
+
+            <div class="menu-row"><span>Affogato</span><strong>$9.99</strong></div>
+            <div class="menu-row"><span>Frappé</span><strong>$8.99</strong></div>
+            <div class="menu-row"><span>Ice Capp</span><strong>$7.99</strong></div>
+            <div class="menu-row"><span>Iced Latte</span><strong>$7.49</strong></div>
+            <div class="menu-row"><span>Iced Tea</span><strong>$5.99</strong></div>
+            <div class="menu-row"><span>Iced Americano</span><strong>$5.49</strong></div>
+            <div class="menu-row"><span>Smoothie</span><strong>$7.99</strong></div>
+
+            <p class="menu-note">
+              Smoothie flavours include banana, mango, peach, raspberry, strawberry and more.
+            </p>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <img src="images/pastries.jpg" alt="Italian pastries and desserts">
+
+          <div class="menu-card-content">
+            <h3>Pastries & Desserts</h3>
+
+            <div class="menu-row"><span>Croissants</span><strong>Ask in store</strong></div>
+            <div class="menu-row"><span>Tiramisu</span><strong>Ask in store</strong></div>
+            <div class="menu-row"><span>Cannoli</span><strong>Ask in store</strong></div>
+            <div class="menu-row"><span>Italian Pastries</span><strong>Ask in store</strong></div>
+            <div class="menu-row"><span>Frozen Treats</span><strong>Ask in store</strong></div>
+
+            <p class="menu-note">
+              Fresh pastries, desserts and sweet treats for every craving.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="section-heading dark-heading">
+        <p class="eyebrow dark">Gallery</p>
+        <h2>A warm café and gelato experience</h2>
+      </div>
+
+      <div class="gallery">
+        <img src="images/facade.jpg" alt="Casa di Moni storefront">
+        <img src="images/cappuccino.jpg" alt="Cappuccino">
+        <img src="images/gelato.jpg" alt="Gelato">
+        <img src="images/iced-drink.jpg" alt="Iced drinks">
+        <img src="images/pastries.jpg" alt="Pastries and desserts">
+      </div>
+    </section>
+
+    <section id="visit" class="section visit-section">
+      <div class="visit-card">
+        <p class="eyebrow dark">Visit Us</p>
+
+        <h2>Casa di Moni</h2>
+
+        <p><strong>Address:</strong> 51 York St, Ottawa, ON K1N 9B7</p>
+        <p><strong>Phone:</strong> <a href="tel:+16137897172">(613) 789-7172</a></p>
+        <p><strong>Price range:</strong> $10–20 per person</p>
+
+        <div class="order-links">
+          <a href="#" class="btn btn-primary">Uber Eats</a>
+          <a href="#" class="btn btn-primary">DoorDash</a>
+          <a href="#" class="btn btn-primary">SkipTheDishes</a>
+        </div>
+      </div>
+
+      <div class="hours-card">
+        <h3>Opening Hours</h3>
+
+        <div class="hours-row"><span>Monday</span><strong>9:00 AM – 11:00 PM</strong></div>
+        <div class="hours-row"><span>Tuesday</span><strong>9:00 AM – 11:00 PM</strong></div>
+        <div class="hours-row"><span>Wednesday</span><strong>9:00 AM – 11:00 PM</strong></div>
+        <div class="hours-row"><span>Thursday</span><strong>9:00 AM – 11:00 PM</strong></div>
+        <div class="hours-row"><span>Friday</span><strong>9:00 AM – 12:00 AM</strong></div>
+        <div class="hours-row"><span>Saturday</span><strong>9:00 AM – 12:00 AM</strong></div>
+        <div class="hours-row"><span>Sunday</span><strong>9:00 AM – 11:00 PM</strong></div>
+      </div>
+    </section>
+
+    <section class="map-section">
+      <iframe
+        title="Casa di Moni location on Google Maps"
+        src="https://www.google.com/maps?q=51%20York%20St%2C%20Ottawa%2C%20ON%20K1N%209B7&output=embed"
+        loading="lazy">
+      </iframe>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Casa di Moni. Demo website built by Aissam Boudrouz.</p>
   </footer>
 
   <script src="script.js"></script>
+
 </body>
 </html>
